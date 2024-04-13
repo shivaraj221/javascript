@@ -21,10 +21,14 @@ console.log(b.indexOf("s"));
 
 /*------String Arrays-------------*/
 
-let a = ["string1","string2","string3"];
+let a1 = ["string1","string2","string3"];
 console.log(a);
-let b = new Array("String1","String2","String3");
+let b1 = new Array("String1","String2","String3");
 console.log(b);
 console.log(a +"\t"+ b);
+
+//SubString
+const username = new String("Shivaraj")
+console.log(username.substring(0,4));
 
 
